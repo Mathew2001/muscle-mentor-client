@@ -1,0 +1,48 @@
+.workout-card {
+  background-color: #1e293b;
+  color: #f1f5f9;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease;
+}
+
+.workout-card:hover {
+  transform: translateY(-4px);
+}
+
+.workout-title {
+  color: #facc15;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.workout-info {
+  margin: 6px 0;
+  font-weight: 500;
+}
+
+.workout-description {
+  margin: 10px 0;
+  color: #cbd5e1;
+}
+
+.muscle-group-section {
+  margin-top: 10px;
+}
+
+.muscle-list {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.muscle-item {
+  margin-bottom: 6px;
+}
+
+.no-muscle {
+  color: #94a3b8;
+  margin-top: 10px;
+}

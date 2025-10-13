@@ -1,0 +1,47 @@
+.workouts-page {
+  padding: 40px 20px;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  min-height: 100vh;
+}
+
+.search-section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.workout-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.no-workouts {
+  text-align: center;
+  margin-top: 50px;
+  color: #94a3b8;
+  font-size: 1.1rem;
+}
+
+.back-link-wrapper {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #facc15;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: 2px solid #facc15;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+  background-color: #facc15;
+  color: #0f172a;
+}

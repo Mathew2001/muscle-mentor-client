@@ -1,0 +1,66 @@
+/* Header.css */
+
+.header_container {
+  background-color: #0f172a;
+  /* dark slate (Tailwind-inspired) */
+  color: #ffffff;
+  padding: 20px 40px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.logo_container h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #facc15;
+  /* yellow (energy) */
+  margin: 0;
+}
+
+.welcome_text {
+  font-size: 1.1rem;
+  margin: 10px 0 20px;
+  font-weight: 400;
+  color: #cbd5e1;
+  /* slate-200 */
+}
+
+.links_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+.links_from_home {
+  color: #f1f5f9;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease, transform 0.2s;
+}
+
+.links_from_home:hover {
+  color: #facc15;
+  transform: scale(1.05);
+  text-shadow: 0 0 4px #facc15;
+}
