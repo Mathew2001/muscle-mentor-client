@@ -8,7 +8,7 @@ import Header from "./components/Header";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/muscle-mentor">
+      <BrowserRouter basename="/muscle-mentor-client">
       <Header />
         <Routes>
           <Route path="/workouts" element={<Workouts />} />
