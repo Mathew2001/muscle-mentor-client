@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/muscle-mentor-client/static/css/main.0637836e.css",
+    "main.js": "/muscle-mentor-client/static/js/main.8376022f.js",
+    "static/media/logo.png": "/muscle-mentor-client/static/media/logo.edc3d50e59bdbfd37916.png",
+    "index.html": "/muscle-mentor-client/index.html",
+    "main.0637836e.css.map": "/muscle-mentor-client/static/css/main.0637836e.css.map",
+    "main.8376022f.js.map": "/muscle-mentor-client/static/js/main.8376022f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0637836e.css",
+    "static/js/main.8376022f.js"
+  ]
+}
