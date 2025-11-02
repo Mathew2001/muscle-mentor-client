@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/muscle-mentor-client/static/css/main.c718523f.css",
-    "main.js": "/muscle-mentor-client/static/js/main.46279548.js",
+    "main.js": "/muscle-mentor-client/static/js/main.aad15dab.js",
     "static/media/HeaderImage.jpg": "/muscle-mentor-client/static/media/HeaderImage.a3ce1f194cc63e0e1a5c.jpg",
     "static/media/CallToAction.jpg": "/muscle-mentor-client/static/media/CallToAction.be050610c547f17386ff.jpg",
     "static/media/bootstrap-icons.woff?": "/muscle-mentor-client/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
@@ -11,10 +11,10 @@
     "static/media/AppImage.jpg": "/muscle-mentor-client/static/media/AppImage.ffe0a83a3b25a86a5c0e.jpg",
     "index.html": "/muscle-mentor-client/index.html",
     "main.c718523f.css.map": "/muscle-mentor-client/static/css/main.c718523f.css.map",
-    "main.46279548.js.map": "/muscle-mentor-client/static/js/main.46279548.js.map"
+    "main.aad15dab.js.map": "/muscle-mentor-client/static/js/main.aad15dab.js.map"
   },
   "entrypoints": [
     "static/css/main.c718523f.css",
-    "static/js/main.46279548.js"
+    "static/js/main.aad15dab.js"
   ]
 }
