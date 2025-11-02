@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/muscle-mentor-client/static/css/main.0637836e.css",
-    "main.js": "/muscle-mentor-client/static/js/main.2f82d113.js",
-    "static/media/logo.png": "/muscle-mentor-client/static/media/logo.edc3d50e59bdbfd37916.png",
+    "main.css": "/muscle-mentor-client/static/css/main.c718523f.css",
+    "main.js": "/muscle-mentor-client/static/js/main.46279548.js",
+    "static/media/HeaderImage.jpg": "/muscle-mentor-client/static/media/HeaderImage.a3ce1f194cc63e0e1a5c.jpg",
+    "static/media/CallToAction.jpg": "/muscle-mentor-client/static/media/CallToAction.be050610c547f17386ff.jpg",
+    "static/media/bootstrap-icons.woff?": "/muscle-mentor-client/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/how_it_works.jpg": "/muscle-mentor-client/static/media/how_it_works.0fd8928c0f499117c0ad.jpg",
+    "static/media/logo1.jpg": "/muscle-mentor-client/static/media/logo1.81405d0b256abaf3df93.jpg",
+    "static/media/bootstrap-icons.woff2?": "/muscle-mentor-client/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/AppImage.jpg": "/muscle-mentor-client/static/media/AppImage.ffe0a83a3b25a86a5c0e.jpg",
     "index.html": "/muscle-mentor-client/index.html",
-    "main.0637836e.css.map": "/muscle-mentor-client/static/css/main.0637836e.css.map",
-    "main.2f82d113.js.map": "/muscle-mentor-client/static/js/main.2f82d113.js.map"
+    "main.c718523f.css.map": "/muscle-mentor-client/static/css/main.c718523f.css.map",
+    "main.46279548.js.map": "/muscle-mentor-client/static/js/main.46279548.js.map"
   },
   "entrypoints": [
-    "static/css/main.0637836e.css",
-    "static/js/main.2f82d113.js"
+    "static/css/main.c718523f.css",
+    "static/js/main.46279548.js"
   ]
 }
