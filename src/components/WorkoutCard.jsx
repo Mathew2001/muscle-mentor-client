@@ -1,26 +1,30 @@
 import React from "react";
-import "../css/WorkoutCard.css"; // Optional CSS file for styling
+//import "../css/WorkoutCard.css"; // Optional CSS file for styling
 
 const WorkoutCard = ({ title, duration, level, description, muscleGroup }) => {
   return (
-    <div className="workout-card">
-      <h2 className="workout-title">{title}</h2>
-      <p className="workout-info"><strong>Duration:</strong> {duration} minutes</p>
-      <p className="workout-info"><strong>Level:</strong> {level}</p>
-      <p className="workout-description">{description}</p>
+    <div className="col">
+      <div className="card h-100 mt-2 bg-transparent border-white border-2 ">
+        <div className="card-body text-white">
+          <h3 className="card-title">{title}</h3>
+          <p className="card-text"><strong>Duration:</strong> {duration} minutes</p>
+          <p className="card-text"><strong>Level:</strong> {level}</p>
+          <p className="card-text"><strong>Description:</strong> {description}</p>
 
-      {muscleGroup && muscleGroup.length > 0 ? (
-        <div className="muscle-group-section">
-          <p><strong>Target Muscles:</strong></p>
-          <ul className="muscle-list">
-            {muscleGroup.map((muscle, i) => (
-              <li key={i} className="muscle-item">{muscle}</li>
-            ))}
-          </ul>
+          {muscleGroup && muscleGroup.length > 0 ? (
+            <div className="card-text">
+              <p><strong>Target Muscles:</strong></p>
+              <ul className="text-white">
+                {muscleGroup.map((muscle, i) => (
+                  <li key={i} className="text-white">{muscle}</li>
+                ))}
+              </ul>
+            </div>
+          ) : (
+            <p className="card-text">No muscle groups listed.</p>
+          )}
         </div>
-      ) : (
-        <p className="no-muscle">No muscle groups listed.</p>
-      )}
+      </div>
     </div>
   );
 };

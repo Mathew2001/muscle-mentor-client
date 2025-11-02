@@ -4,8 +4,7 @@ import { getAllPrograms } from "../redux/actions/programActions";
 import { getAllWorkouts } from "../redux/actions/workoutActions";
 import ProgramCard from "./ProgramCard";
 import Search from "./Search";
-import { Link } from "react-router-dom";
-import "../css/Programs.css"; // make sure to create this CSS file
+//import "../css/Programs.css"; // make sure to create this CSS file
 
 
 const Programs = () => {
@@ -24,34 +23,23 @@ const Programs = () => {
   );
 
   return (
-    <section className="programs-page">
-      <div className="search-section">
+    <div className="container mt-5">
+      <h1 className="text-center mb-4 text-white">Programs</h1>
+      <div className="mb-3">
         <Search search={search} setSearch={setSearch} />
       </div>
-
       {filteredPrograms && filteredPrograms.length > 0 ? (
-        <ul className="program-list">
+        <>
           {filteredPrograms.map((program) => (
-            <li key={program._id}>
-              <ProgramCard
-                name={program.name}
-                durationWeeks={program.durationWeeks}
-                description={program.description}
-                workouts={workouts.filter(workout => workout.programId === program._id)}
-              />
-            </li>
+            <ProgramCard key={program._id} name={program.name} durationWeeks={program.durationWeeks} description={program.description} workouts={workouts.filter(workout => workout.programId === program._id)} images={program.images} />
           ))}
-        </ul>
+        </>
       ) : (
-        <div className="no-programs">
+        <div className="text-center text-white">
           <p>There are no programs matching your search.</p>
         </div>
       )}
-
-      <div className="back-link-wrapper">
-        <Link to="/" className="back-link">← Back to Home</Link>
-      </div>
-    </section>
+    </div>
   );
 };
 
