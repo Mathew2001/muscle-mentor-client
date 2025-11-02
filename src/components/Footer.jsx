@@ -48,13 +48,13 @@ const Footer = () => {
         <hr className="border-secondary mt-4" />
 
         <div className="d-flex flex-column flex-md-row justify-content-between align-items-center">
-          <p className="mb-0 text-white-50">
-            © {currentYear} MuscleMentor. All rights reserved.
-          </p>
           <div className="d-flex gap-3 mt-3 mt-md-0">
             <Link to="/terms" className="text-white-50 text-decoration-none">Terms</Link>
             <Link to="/privacy" className="text-white-50 text-decoration-none">Privacy</Link>
           </div>
+          <p className="mb-0 text-white-50">
+            © {currentYear} MuscleMentor. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
