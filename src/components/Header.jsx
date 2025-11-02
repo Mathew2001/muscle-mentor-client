@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <header
-        className="w-100"
+        className=""
         style={{
           backgroundImage: `url(${HeaderImage})`,
           backgroundSize: "cover",
