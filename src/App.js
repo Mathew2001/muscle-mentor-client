@@ -13,7 +13,7 @@ import AccessibilityStatement from "./components/AccessibilityStatement";
 import AccessibilityButton from "./components/AccessibilityButton";
 function App() {
   return (
-    <div className="App" style={{ backgroundImage: `url(${AppImage})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+    <div style={{ backgroundImage: `url(${AppImage})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
       <HashRouter>
       <Header />
       <div className="container py-2">
